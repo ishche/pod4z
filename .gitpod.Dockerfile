@@ -2,6 +2,8 @@ FROM gitpod/workspace-full
                     
 USER gitpod
 
-RUN bash -c ". /home/gitpod/.sdkman/bin/sdkman-init.sh \
-             && sdk install java 8 \
-             && sdk default java 8"
+RUN sudo apt update && \
+    sudo apt install -y openjdk-8-jdk && \
+    sudo apt-get clean &&  \
+    sudo rm -rf /var/lib/apt/lists/* && \
+    sudo rm -rf /var/cache/apt/*

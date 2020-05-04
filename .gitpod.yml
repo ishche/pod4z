@@ -4,3 +4,11 @@ tasks:
       remove me entirely."
 image:
   file: .gitpod.Dockerfile
+
+vscode:
+  extensions:
+    - BroadcomMFD.hlasm-language-support@0.10.0:+3OL8fPwmEhECd8Qn7HcoA==
+    - bitlang.cobol@6.2.13:KCd/5iSZd0N3brrJqxoWmw==
+    - BroadcomMFD.debugger-for-mainframe@1.1.0:rGoQzBXWcJKzt+K8z8ldsQ==
+    - broadcomMFD.explorer-for-endevor@0.9.1:Ce9ySfGu7q/ZborLEBhmvg==
+    - Zowe.vscode-extension-for-zowe@1.5.0:y79BxIkhXJ9NVOTPrAPb3Q==
